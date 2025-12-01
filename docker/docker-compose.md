@@ -113,7 +113,7 @@ ls -l
 ```
 
 
-# **5. (Optioneel maar sterk aanbevolen) .env-bestand gebruiken**
+# **5. .env-bestand gebruiken**
 
 Een `.env`-bestand wordt vaak gebruikt om configuratievariabelen op te slaan die je niet rechtstreeks in je `docker-compose.yml` wilt zetten. Denk hierbij aan:
 
@@ -224,7 +224,7 @@ docker compose down -v
 
 * Gebruik `.env` voor wachtwoorden
 
-* Open enkel de poorten die nodig zijn
+* Open enkel de poorten die nodig zijn: geen poorten van de database, backend naar buiten mappen!!
 
 
 ### **Stabiliteit**
