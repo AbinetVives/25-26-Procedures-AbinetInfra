@@ -99,7 +99,7 @@ Dit brengt je automatisch in:
 Ga naar die map:
 
 ```bash
-/home/ubuntu/projectmap
+ cd /home/ubuntu/projectmap
 ```
 
 Plaats hier je docker-compose bestand of maak het aan:
@@ -134,7 +134,7 @@ nano .env
 - Zet *nooit* wachtwoorden, tokens of andere gevoelige gegevens in `docker-compose.yml`.
 - Houd je `.env`-bestand privé en upload het *nooit* naar GitHub of een andere publieke repository.
 - Voeg `.env` altijd toe aan `.gitignore`, zodat het niet per ongeluk wordt meegestuurd.
-- Een `.env.example` mag wél gepubliceerd worden, maar altijd **zonder echte geheimen**.
+- Een `.env.example` mag wél gepubliceerd worden, maar altijd **zonder echte gevoelige data**.
 
 
 # **6. Docker Compose uitvoeren**
@@ -166,7 +166,7 @@ docker ps
 ```
 
 
-# **8. Logs bekijken (handig bij fouten)**
+# **8. Logs bekijken**
 
 ```bash
 docker compose logs -f
@@ -224,7 +224,7 @@ docker compose down -v
 
 * Gebruik `.env` voor wachtwoorden
 
-* Open enkel de poorten die nodig zijn: geen poorten van de database, backend naar buiten mappen!!
+* Open enkel de poorten die nodig zijn: **geen poorten van de database, backend naar buiten mappen!!**
 
 
 ### **Stabiliteit**
