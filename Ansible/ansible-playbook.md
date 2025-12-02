@@ -193,5 +193,3 @@ tasks:
 ```
 
 ---
-$$$$$$
-Wil je dat ik dat doe?
