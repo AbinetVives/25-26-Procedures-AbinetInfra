@@ -1,4 +1,3 @@
-
 # Projectwerk Procedures Handleiding
 
 ## Inleiding
@@ -60,12 +59,12 @@ De **Roadmap** is het strategische overzicht van je hele sprint. Het geeft je di
 
 ### Lezen en gebruiken van de Roadmap:
 1. **Sprint Status:** De titel `Sprint 5 [OPEN]` geeft aan dat dit de actieve sprint is
-2. **Deadline:** `Due in 7 days (09/12/2025)` geeft tijdsdruk en einddatum
+2. **Deadline:** `Due in 2 days (09/12/2025)` geeft tijdsdruk en einddatum
 3. **Sprintdoel:** Korte beschrijving herinnert aan hoofddoelstelling
 4. **Voortgang in cijfers:**
    - `29 issues`: Totaal aantal tickets
-   - `(18 closed - 11 open)`: Voltooide vs openstaande taken
-   - `68%`: Algemene voortgangsindicator
+   - `(34 closed - 8 open)`: Voltooide vs openstaande taken
+   - `78%`: Algemene voortgangsindicator
 5. **Actie:** Klik op de sprintnaam om naar de gedetailleerde ticketlijst te gaan
 
 ---
@@ -120,17 +119,18 @@ Het bord is opgedeeld in kolommen die de verschillende fasen van een taak weerge
 ---
 
 ## Spent Time
+![Log Time Formulier](images/log-time-form.png)
 Het onderdeel **Spent Time** is het centrale dashboard voor het loggen, beheren en analyseren van gewerkte uren.
 
 ### A. Tijd Registreren bij een Ticket
 Dit is de meest aanbevolen manier, omdat de tijd direct aan het werk wordt gekoppeld.
 
-![Log Time Formulier](images/log-time-form.png)
-
 #### Stappen:
 1. Open een specifieke ticket (Issue)
 2. Zoek het vak **"Log time"**
+![Log Time Formulier](images/log-time.png)
 3. Vul de gegevens in:
+![Log Time Formulier](images/logtime.png)
    - **Issue:** ID van de ticket
    - **User:** Jezelf kiezen
    - **Spent on:** Werkdatum
@@ -141,8 +141,6 @@ Dit is de meest aanbevolen manier, omdat de tijd direct aan het werk wordt gekop
 
 ### B. Het "Spent Time" Overzicht Analyseren
 Het hoofdscherm geeft een totaaloverzicht van alle geregistreerde uren.
-
-![Spent Time Overzicht](images/spent-time-overview.png)
 
 #### Onderdelen:
 - **Totaal Uren:** Cumulatief totaal binnen filters
